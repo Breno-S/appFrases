@@ -15,13 +15,15 @@ List<String> frases = [
   // 5
   "Qual a diferença entre C e C++?\n\nR: 1",
   // 6
-  '"O chatGPT vai acabar com nosso trabalho" (famosas últimas palavras)',
+  '"O chatGPT vai acabar com nosso trabalho" (famosas últimas palavras).',
   // 7
-  "Nada substitui a prática, nem mesmo o seu curso de 200 horas de python para iniciantes.",
+  "Nada substitui a prática, nem mesmo o seu curso de 100 horas de python para iniciantes.",
   // 8
   "Pensamento crítico é essencial na vida do programador.",
   // 9
   "Bons tempos quando eu achava que estava hackeando só de apertar F12 no navegador.",
+  // 10
+  "Flutter salva vidas.",
 ];
 
 List<String> imageUrls = [
@@ -35,6 +37,7 @@ List<String> imageUrls = [
   "image/walter-white.gif", //7
   "image/spongebob-patrick.gif", //8
   "image/matrix.jpg", //9
+  "image/drake-accepts.jpg", //10
 ];
 
 class Frases extends StatefulWidget {
