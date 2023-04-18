@@ -70,7 +70,11 @@ flutter:
     - image/drake-accepts.jpg
     - image/cem_mil_dolares.gif
     - image/waiting.gif
-
+    - image/lil-yachty-drake.gif
+    - image/pedro-pascal-crying.gif
+    - image/matrix.jpg
+    - image/tuxedo.jpg
+    - image/surprised-realization.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
