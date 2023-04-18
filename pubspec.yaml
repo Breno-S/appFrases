@@ -75,6 +75,8 @@ flutter:
     - image/matrix.jpg
     - image/tuxedo.jpg
     - image/surprised-realization.gif
+    - image/walter-white.gif
+    - image/spongebob-patrick.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -99,5 +101,13 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  fonts:
+    - family: UbuntuMono
+      fonts:
+        - asset: fonts/UbuntuMono-Bold.ttf
+        - asset: fonts/UbuntuMono-BoldItalic.ttf
+        - asset: fonts/UbuntuMono-Italic.ttf
+        - asset: fonts/UbuntuMono-Regular.ttf
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
