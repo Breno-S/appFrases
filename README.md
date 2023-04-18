@@ -1,6 +1,6 @@
-# aula_11
+# App Frases Aleatórias
 
-A new Flutter project.
+Um aplicativo simples que exibe frases motivacionais e piadas relacionadas à programação.
 
 ## Getting Started
 
