@@ -1,6 +1,6 @@
 # App Frases Aleatórias
 
-Um aplicativo simples que exibe frases motivacionais e piadas relacionadas à programação.
+Um aplicativo simples que exibe frases motivacionais e piadas relacionadas a programação.
 
 ## Getting Started
 
