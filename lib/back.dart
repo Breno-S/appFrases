@@ -15,7 +15,7 @@ List<String> frases = [
   // 5
   "Qual a diferença entre C e C++?\n\nR: 1",
   // 6
-  '"O chatGPT vai acabar com nosso trabalho" (famosas últimas palavras).',
+  '"O chatGPT vai nos fazer trabalhar menos" (famosas últimas palavras).',
   // 7
   "Nada substitui a prática, nem mesmo o seu curso de 100 horas de python para iniciantes.",
   // 8
