@@ -1,5 +1,17 @@
-List<String> comecoFrase1 = ['Quem gosta de', 'Programar em', 'Antes o', 'Minha habilidade em', 'Aprender'];
-List<String> sujeitos1 = ['Python', 'CSS', 'Java', 'C++', 'Rust', 'ChatGPT', 'IA', 'Javascript', 'Bitcoin', 'Bogo Sort' 'React', 'Flutter'];
-List<String> meioFrase1 = ['é tão', 'deveria ser', 'nem é ', 'é com certeza', 'não pode ser tão'];
-List<String> adjetivos1 = ['fácil', 'difícil', 'rápido', 'frustrante ', 'corporativo', 'nerd', 'modinha', 'assustador'];
-List<String> finalFrase1 = ['disse todo iniciante, ever', 'me faz querer programar em metal', 'me dá vontade de beber alvejante no café da manhã', 'me faz querer trabalhar na NASA'];
+List<String> frases = [
+  "Clique abaixo para gerar uma frase!",
+  "O que o CEO da NASA disse ao programador Rust que acabou de ser contratado? R: Só tenha cuidado para não enferrujar nossos foguetes, senão teremos de usar o garbage collector.",
+  "Até parece que eu vou trabalhar com esses códigos inteligíveis... Peraí, você disse que tem uma grande demanda nesse setor?",
+  "Me acorde quando o Android Studio terminar de carregar.",
+  "Não há nada que um parênteses a mais não resolva.",
+  "Mind the semicolon (;)",
+];
+
+List<String> imageUrls = [
+  "image/programming_dis_logo.png",
+  "image/office-handshake.jpg",
+  "image/cem_mil_dolares.gif"
+  "image/waiting.gif",
+  "image/drake-accepts.jpg",
+  "image/drake-rejects.jpg",
+];

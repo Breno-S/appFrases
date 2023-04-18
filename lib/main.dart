@@ -18,32 +18,17 @@ class Frases extends StatefulWidget {
 }
 
 class _FrasesState extends State<Frases> {
-  String piada = "O que o CEO da NASA disse ao programador Rust que acabou de ser contratado? R: Só tenha cuidado para não enferrujar nossos foguetes, senão teremos de usar o garbage collector";
   String frase = "Clique abaixo para gerar uma frase!";
+  String imageUrl = 'image/programming_dis_logo.png';
 
-  var rng = Random();
-  String comeco = '';
-  String sujeito = '';
-  String meioFrase =  '';
-  String adjetivo = '';
-  String finalFrase = '';
+  void _gerarFrase() {
+    var rng = Random();
+    var num = rng.nextInt(frases.length);
 
-  void _formarFrase() {
     setState(() {
-    comeco = comecoFrase1[rng.nextInt(comecoFrase1.length)];
-    sujeito = sujeitos1[rng.nextInt(sujeitos1.length)];
-    meioFrase = meioFrase1[rng.nextInt(meioFrase1.length)];
-    adjetivo = adjetivos1[rng.nextInt(adjetivos1.length)];
-    finalFrase = finalFrase1[rng.nextInt((finalFrase1.length))];
-
-    if(rng.nextInt(100) < 5) {
-      frase = piada;
-    }
-    else {
-      frase = '$comeco $sujeito $meioFrase $adjetivo $finalFrase';
-    }
-
-  });
+        frase = frases[num];
+        imageUrl = imageUrls[num];
+    });
   }
 
   @override
@@ -60,8 +45,9 @@ class _FrasesState extends State<Frases> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Image.asset('image/programming_dis_logo.png'),
-              Text('$frase',
+              Image.asset(imageUrl),
+              Text(
+                '$frase',
                 style: TextStyle(
                   fontSize: 25,
                   fontStyle: FontStyle.italic,
@@ -69,14 +55,14 @@ class _FrasesState extends State<Frases> {
                 ),
               ),
               ElevatedButton(
-                  onPressed: _formarFrase,
-                  child: Text('Nova Frase',
+                onPressed: _gerarFrase,
+                child: Text(
+                  'Nova Frase',
                   style: TextStyle(
-                    fontSize: 25,
-                    color: Colors.black87,
-                    fontWeight: FontWeight.bold
-                  ),
-                  ),
+                      fontSize: 25,
+                      color: Colors.black87,
+                      fontWeight: FontWeight.bold),
+                ),
               ),
             ],
           ),
@@ -85,5 +71,3 @@ class _FrasesState extends State<Frases> {
     );
   }
 }
-
-
