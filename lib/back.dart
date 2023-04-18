@@ -92,12 +92,10 @@ class _FrasesState extends State<Frases> {
               ),
               ElevatedButton(
                 onPressed: _gerarFrase,
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
                 child: const Text(
                   'Nova Frase',
-                  style: TextStyle(
-                      fontSize: 25,
-                      color: Colors.black87,
-                      fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 25, color: Colors.white),
                 ),
               ),
             ],
