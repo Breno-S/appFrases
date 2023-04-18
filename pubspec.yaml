@@ -65,6 +65,12 @@ flutter:
 
   assets:
     - image/programming_dis_logo.png
+    - image/office-handshake.jpg
+    - image/drake-rejects.jpg
+    - image/drake-accepts.jpg
+    - image/cem_mil_dolares.gif
+    - image/waiting.gif
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
