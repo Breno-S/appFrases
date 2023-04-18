@@ -68,6 +68,7 @@ class _FrasesState extends State<Frases> {
         title: const Text(
           'Goodbye, Cruel World!',
           style: TextStyle(
+            fontSize: 25,
             fontFamily: 'UbuntuMono',
             fontWeight: FontWeight.bold,
           ),
@@ -95,7 +96,11 @@ class _FrasesState extends State<Frases> {
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
                 child: const Text(
                   'Nova Frase',
-                  style: TextStyle(fontSize: 25, color: Colors.white),
+                  style: TextStyle(
+                    fontSize: 25,
+                    color: Colors.white,
+                    fontFamily: 'UbuntuMono',
+                  ),
                 ),
               ),
             ],
