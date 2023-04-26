@@ -40,6 +40,10 @@ List<String> imageUrls = [
   "image/drake-accepts.jpg", //10
 ];
 
+List<int> selected = [];
+
+var num, last;
+
 class Frases extends StatefulWidget {
   const Frases({Key? key}) : super(key: key);
 
@@ -53,7 +57,17 @@ class _FrasesState extends State<Frases> {
 
   void _gerarFrase() {
     var rng = Random();
-    var num = rng.nextInt(frases.length);
+
+    do {
+      num = rng.nextInt(frases.length);
+    } while (selected.contains(num) || num == last);
+
+    selected.add(num);
+    last = num;
+
+    if (selected.length == frases.length) {
+      selected.clear();
+    }
 
     setState(() {
       frase = frases[num];
